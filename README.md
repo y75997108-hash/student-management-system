@@ -27,6 +27,7 @@ This application demonstrates CRUD operations, layered architecture (Model, DAO,
 
 ## Project Structure
 
+```text
 src
 └── main
     └── java
@@ -38,6 +39,7 @@ src
                     ├── service
                     ├── util
                     └── App.java
+```
     
 ## Database Schema
 
