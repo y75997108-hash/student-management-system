@@ -143,13 +143,12 @@ public class App {
         if (student!=null) {
             System.out.println(" CURRENT STUDENT DETAILS ");
             printStudent(student);
-            student.setId(id);
+
+            //student.setId(id);
             student = readStudentDetails(scanner);
-            student.setName(student.getName());
-            
-            student.setAge(student.getAge());
-            
-            student.setBranch(student.getBranch() );
+           // Student updatedStudent = readStudentDetails(scanner);
+            student.setId(id);
+           // studentService.updateStudent(student);
             boolean update = studentService.updateStudent(student);
 
             if (update) {
